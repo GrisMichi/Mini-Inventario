@@ -1,0 +1,30 @@
+{
+  "name": "mini-inventario",
+  "version": "1.0.0",
+  "description": "mini inventario con tokens",
+  "homepage": "https://github.com/GrisMichi/Mini-Inventario#readme",
+  "bugs": {
+    "url": "https://github.com/GrisMichi/Mini-Inventario/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrisMichi/Mini-Inventario.git"
+  },
+  "license": "ISC",
+  "author": "GrisMichi",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/genai": "^1.4.0",
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "genai": "^0.0.18",
+    "google": "^2.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.1"
+  }
+}
